@@ -1,0 +1,24 @@
+{
+    "scriptFile": "main.py",
+    "entryPoint": "customentry",
+    "bindings": [
+        {
+            "name": "req",
+            "direction": "in",
+            "type": "httpTrigger",
+            "authLevel": "anonymous"
+        },
+        {
+            "name": "msg",
+            "direction": "out",
+            "type": "queue",
+            "queueName": "outqueue",
+            "connection": "AzureWebJobsStorage"
+        },
+        {
+            "name": "$return",
+            "direction": "out",
+            "type": "http"
+        }
+    ]
+}

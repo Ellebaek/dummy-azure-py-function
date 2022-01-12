@@ -1,0 +1,12 @@
+{
+    "scriptFile": "main.py",
+    "entryPoint": "customentry",
+    "bindings": [
+        {
+            "name": "timer_var",
+            "type": "timerTrigger",
+            "direction": "in",
+            "schedule": "0 */5 * * * *"
+        }
+    ]
+}
