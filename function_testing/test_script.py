@@ -1,6 +1,8 @@
 import azure.functions as func
 from dummy_function01 import main
+import datetime
 
+print(datetime.datetime.now())
 
 def test_dummy_function01():
     # Construct a mock HTTP request.
