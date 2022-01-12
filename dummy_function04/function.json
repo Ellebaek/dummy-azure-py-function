@@ -1,9 +1,8 @@
 {
-    "scriptFile": "main.py",
-    "entryPoint": "customentry",
+    "scriptFile": "__init__.py",
     "bindings": [
         {
-            "name": "timer_var",
+            "name": "tvar",
             "type": "timerTrigger",
             "direction": "in",
             "schedule": "0 */1 * * * *",
