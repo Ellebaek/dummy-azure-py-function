@@ -1,4 +1,7 @@
 *local.settings.json
+*bin/*
+*obj/*
+extensions.csproj
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
