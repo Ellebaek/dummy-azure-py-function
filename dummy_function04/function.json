@@ -5,9 +5,9 @@
             "name": "tvar",
             "type": "timerTrigger",
             "direction": "in",
-            "schedule": "0 */1 * * * *",
+            "schedule": "0 */1 * * * *"
             // "runOnStartup": "true",
-            "useMonitor": "true"
+            // "useMonitor": "true"
         }
     ]
 }
